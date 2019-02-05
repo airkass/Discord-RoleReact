@@ -1,8 +1,8 @@
 //Settings!
 const yourID = "264434200893980682"; //Instructions on how to get this: https://redd.it/40zgse
-const setupCMD = "!createrolemessage"
+const setupCMD = "!createrole"
 let initialMessage = `**Reagissez avec les reactions pour obtenir les roles.**`;
-const roles = ["PC", "PS4", "XBOX"];
+const roles = ["💻 PC", "🎮 PS4", "💚 XBOX"];
 const reactions = ["💻", "🎮", "💚"];
 const botToken = process.env.TOKEN; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
